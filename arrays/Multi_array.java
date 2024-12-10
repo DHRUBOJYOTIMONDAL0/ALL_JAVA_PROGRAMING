@@ -7,17 +7,17 @@ public class Multi_array {
         // Filling the array with random values
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 4; j++) {
-                num[i][j] = (int) (Math.random() * 10);
+                //num[i][j] = (int) (Math.random() * 10);
             }
         }
 
         // Printing the array
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 4; j++) {
-                System.out.print(num[i][j]+ " ");  // Adding space for better readability
-            }
-            System.out.println(); // New line after each row
-        }
+        // for (int i = 0; i < 3; i++) {
+        //     for (int j = 0; j < 4; j++) {
+        //         System.out.print(num[i][j]+ " ");  // Adding space for better readability
+        //     }
+        //     System.out.println(); // New line after each row
+        // }
 
         for(int n[] : num){
             for (int m : n){ // m is taking value from the array n
