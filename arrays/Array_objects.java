@@ -49,15 +49,28 @@ public class Array_objects {
         s3.marks = 92;
 
         // Storing student objects in an array
-        // Student[] students = {s1, s2, s3};
         Student[] students = new Student[3];
         students[0] = s1;
         students[1] = s2;
         students[2] = s3;
 
-        // Printing student details
         for (int i = 0; i < students.length; i++) {
             System.out.println(students[i].name + " : " + students[i].marks);
+        }
+
+        // Printing student details using enhanced for loop
+        for (Student stud : students) {
+            System.out.println(stud.name + " : " + stud.marks);
+        }
+
+        int nums[] = new int[4];
+        nums[0] = 10;
+        nums[1] = 20;
+        nums[2] = 30;
+        nums[3] = 40;
+
+        for (int n : nums) {
+            System.out.println(n);
         }
     }
 }
