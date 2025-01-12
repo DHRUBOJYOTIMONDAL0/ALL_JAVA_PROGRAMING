@@ -1,28 +1,27 @@
-class Mobile{
+class Mobile {
     String band; // band and price are instance variables
     int price;
-   static String name; // static variable share the same value with other obhject
+    static String name; // static variable share the same value with other obhject
 
-    static {
+    static { // static block is used to initialize the static variable
         name = "Phone";
         System.out.println("In static block");
     }
 
-   public Mobile(){
-    brand = "";
-    price = 200;
-    System.out.println("In constructor");
-   }
+    public Mobile() {
+        band = "";
+        price = 200;
+        System.out.println("In constructor");
+    }
 
-    public void show(){
+    public void show() {
         System.out.println(band + " : " + price + " : " + name);
     }
 
     // public void show1(Mobile obj){ // static method
-    //     System.out.println(obj.band + " : " + obj.price + " : " + name);
+    // System.out.println(obj.band + " : " + obj.price + " : " + name);
     // }
-    
-    
+
 }
 
 public class Demo_staticVariable {
@@ -46,8 +45,7 @@ public class Demo_staticVariable {
 
        // Mobile.show1(obj1);
 
-       Class.forName(className:"Mobile")
+       Class.forName("Mobile");// how to call you static block and how to load the class
     }
-
 
 }
