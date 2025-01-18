@@ -23,8 +23,8 @@ class B extends A{
 public class This_super {
     public static void main(String[] args) {
         
-       // B obj = new B(5); // suppose i am not passing any value so still give me output In B but 
-       B obj = new B();                    // passing any value in object then output given Int B
+       B obj = new B(5); // suppose i am not passing any value so still give me output In B but 
+       //B obj = new B();                    // passing any value in object then output given Int B
     }
     
 }
