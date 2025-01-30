@@ -30,6 +30,7 @@ class Solution {
         scanner.close();
 
         String result = reverseWords(input);
+        System.out.println("Reversted words: " + result);
         System.out.println("Reversed words: " + result);
     }
 }
