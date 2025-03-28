@@ -18,7 +18,7 @@ class Solution {
                 flag = 0;
             }
         }
-        res.append(temp.reverse());  
+        res.append(temp.reverse());
 
         return res.toString();
     }
@@ -30,7 +30,6 @@ class Solution {
         scanner.close();
 
         String result = reverseWords(input);
-        System.out.println("Reversted words: " + result);
-        System.out.println("Reversted words: " + result);
+        System.out.println("Reversed words: " + result);
     }
 }
