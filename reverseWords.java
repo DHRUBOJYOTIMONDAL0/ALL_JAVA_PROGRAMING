@@ -31,5 +31,6 @@ class Solution {
 
         String result = reverseWords(input);
         System.out.println("Reversed words: " + result);
+        System.out.println("Reversed words: " + result);
     }
 }
